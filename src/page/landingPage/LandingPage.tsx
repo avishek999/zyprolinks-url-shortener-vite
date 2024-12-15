@@ -38,19 +38,19 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative ">
             {/* Top image */}
             <img
-              className="rounded-3xl shadow-2xl relative hover:scale-105 transition-all duration-500 z-10"
-              width={700}
-              src="https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2F6968f255-5890-4204-a07f-cc15e2483b98.jpg&w=3840&q=75"
+              className="rounded-3xl shadow-2xl relative hover:scale-105 transition-all duration-500 z-10 "
+              width={1000}
+              src="https://static.vecteezy.com/system/resources/thumbnails/027/992/698/small_2x/link-sign-icon-chain-link-symbol-3d-illustration-png.png"
               alt=""
             />
             {/* Blurred background image */}
             <img
-              className="rounded-3xl shadow-2xl absolute top-0 left-0 blur-xl animate-pulse   z-0"
-              width={900}
-              src="https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2F6968f255-5890-4204-a07f-cc15e2483b98.jpg&w=3840&q=75"
+              className="rounded-3xl shadow-2xl absolute top-0 left-0 blur-xl animate-pulse  hover:animate-accordion-up  z-0 "
+              width={1000}
+              src="https://static.vecteezy.com/system/resources/thumbnails/027/992/698/small_2x/link-sign-icon-chain-link-symbol-3d-illustration-png.png"
               alt=""
             />
           </div>
