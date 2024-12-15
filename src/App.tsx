@@ -3,7 +3,8 @@ import Auth from "./page/Auth/Auth";
 import { ThemeProvider } from "./components/theme-provider/Theme-provider";
 import Home from "./page/home/Home";
 import LandingPage from "./page/landingPage/LandingPage";
-import AllLinks from "./page/AllLinks/AllLinks";
+import AllLinksPage from "./page/AllLinks/AllLinks";
+
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/auth" Component={Auth} />
-            <Route path="/all-links" Component={AllLinks} />
+            <Route path="/links" Component={AllLinksPage} />
 
             <Route path="/" Component={LandingPage} />
 

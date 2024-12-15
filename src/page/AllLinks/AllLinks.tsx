@@ -1,18 +1,22 @@
-import { AppSidebar } from "@/components/sidebar/SideBar"
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import AllLinks from "@/components/allLinks/AllLinks";
+import { AppSidebar } from "@/components/sidebar/SideBar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
-const AllLinks = () => {
+const AllLinksPage = () => {
   return (
-    <SidebarProvider className="flex-col lg:flex-row">
+    <SidebarProvider className="block">
       <div className="flex h-screen overflow-hidden">
         <AppSidebar />
         <main className="flex-1 overflow-y-auto bg-background">
           <SidebarTrigger />
-        <AllLinks />
+          <div className="w-full flex justify-center">
+
+          <AllLinks />
+          </div> 
         </main>
       </div>
     </SidebarProvider>
-  )
-}
+  );
+};
 
-export default AllLinks
+export default AllLinksPage;
