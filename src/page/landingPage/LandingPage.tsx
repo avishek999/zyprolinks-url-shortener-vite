@@ -41,7 +41,7 @@ const LandingPage = () => {
           <div className="relative ">
             {/* Top image */}
             <img
-              className="rounded-3xl shadow-2xl relative hover:scale-105 transition-all duration-500 z-10 "
+              className="rounded-3xl  relative hover:scale-105 transition-all duration-500 z-10 "
               width={1000}
               src="https://static.vecteezy.com/system/resources/thumbnails/027/992/698/small_2x/link-sign-icon-chain-link-symbol-3d-illustration-png.png"
               alt=""
