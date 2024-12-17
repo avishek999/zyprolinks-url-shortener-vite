@@ -5,7 +5,7 @@ import { Bar, BarChart, CartesianGrid, ResponsiveContainer, XAxis, YAxis } from 
 
 // Example of the data structure
 const chartData = [
-  { month: "January", desktop: 186, mobile: 80 },
+  { month: "January", desktop: 0, mobile: 0 },
   { month: "February", desktop: 305, mobile: 200 },
   { month: "March", desktop: 237, mobile: 120 },
   { month: "April", desktop: 73, mobile: 190 },
